@@ -10,6 +10,11 @@ The Research Commuting Group advances trans-disciplinary and interdisciplinary, 
  
 We support the research needs of SLU faculty, staff and students and external partners by building communities among people who wish to engage with digital methods and tools. Closely integrated with these activities, we develop digital technologies and platforms that foster research, especially in the humanities. We achieve these goals through a variety of outreach efforts and partnerships within and beyond the University community.
 
+### Technical Staff
+
+- Patrick Cuba, IT Architect
+- Bryan Haberberger, Full-Stack Developer
+
 ### Contact us
 
 [research.computing@slu.edu](mailto:research.computing@slu.edu)
