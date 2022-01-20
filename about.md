@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+The Research Commuting Group advances trans-disciplinary and interdisciplinary, collaborative scholarship by serving as the hub for digital research at Saint Louis University.
 
-### More Information
+![Students view a projected image in a digital humanities classroom](https://www.slu.edu/arts-and-sciences/ong-center/imgs/digital-humanities-classroom.jpg)
+ 
+We support the research needs of SLU faculty, staff and students and external partners by building communities among people who wish to engage with digital methods and tools. Closely integrated with these activities, we develop digital technologies and platforms that foster research, especially in the humanities. We achieve these goals through a variety of outreach efforts and partnerships within and beyond the University community.
 
-A place to include any other types of information that you'd like to include about yourself.
+### Contact us
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[research.computing@slu.edu](mailto:research.computing@slu.edu)
