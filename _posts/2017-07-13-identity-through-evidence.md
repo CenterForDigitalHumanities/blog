@@ -7,7 +7,7 @@ categories:
 
 ## The Birth of an Identity
 
-## ![](/assets/images/wwi-letters-7-jun-1918001.jpg)
+## ![]({{ site.baseurl }}/assets/images/wwi-letters-7-jun-1918001.jpg)
 
 Let's take a real case and find out what it indicates and how it ought to be annotated. This image is the first page of a six page (3 folio) letter from Private Allen Gooch to his family, but let's not get ahead of ourselves.
 
@@ -25,7 +25,7 @@ Such a request is possible in many ways, but is already reliant on a vast knowle
 
 ### Establish Uniqueness
 
-### ![](/assets/images/dsc_0761-002.jpg)
+### ![]({{ site.baseurl }}/assets/images/dsc_0761-002.jpg)
 
 In the human world, there is a lot of fuzziness in definition. This is fine because we are comfortable replacing definition with a preponderance of description. Even with a name "Dayna Gooch Jacobs" and a photo (right), to really find the right person, a researcher may want an address, measurements, occupation, even DNA. The digital world solves this with URIs. If I say, "1" and commit to never referring to that "1" again for any other object, I can reliably reference it over and over. In fact, even if the entire resource vaporizes, the corpus of annotations that point to it can still describe it. In this way, an authority file isn't even necessary, except to assure the uniqueness of the identifier. In JSON-LD, we're looking at something like this:
 

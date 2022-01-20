@@ -24,7 +24,7 @@ I was unable to answer all these questions for myself, but I did start to wonder
 
 I did not look for dark spots, but for "busyness" in the page. While [some scripts](https://en.wikipedia.org/wiki/Devanagari) may have regions of strong linear consistency, most scripts (even character-based ones) are useful by their contrast to the plainness of the support medium.
 
-[caption id="attachment_807" align="aligncenter" width="520"]![](/assets/images/db1-e1529435041314-520x247.jpg) Sample image processed for "busyness"[/caption]
+[caption id="attachment_807" align="aligncenter" width="520"]![]({{ site.baseurl }}/assets/images/db1-e1529435041314-520x247.jpg) Sample image processed for "busyness"[/caption]
 
 I began, on that airplane ride, to write a simple fork of some canvas element JavaScript filters I had bookmarked a long time ago. Simply, I redrew the image in the browser as a representation of its busyness. What I [dropped on Plunker](http://embed.plnkr.co/BYDuwd/) when I landed took each pixel and rewrote it depending on the difference between itself and the adjacent pixels on the row. I was excited that with three very different samples, the resulting visualization clearly identified the text block and reduced the debris. By then the plane had landed and I put away my childish fears that technology would ever abandon me.
 

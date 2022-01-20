@@ -15,13 +15,13 @@ coverImage: "bloc2.png"
 
 Versioning as it is known in software is simply the process of preserving previous iterations of a document when changes are made. There are many systems available to the developer which differ in centralization, cloning behaviors, delta encoding, etc., but for our purposes, the philosophy and utility should suffice.
 
-[![](/assets/images/versions2-1-300x167.png)](http://ongcdh.org/wp-content/uploads/2018/01/versions2-1.png)
+[![]({{ site.baseurl }}/assets/images/versions2-1-300x167.png)](http://ongcdh.org/wp-content/uploads/2018/01/versions2-1.png)
 
 From a mile up, versioning resembles different editions of a published work. Even when the new work supersedes the previous, both are maintained so that they can be cited reliably and the changes between them may become an interesting piece of the academic conversation as well. In the digital world, new versions can come quickly and the differences between them are often quite small. However, in an ecosystem like Linked Open Data, that presumes most resources are remote and have a permanent and reliable reference, even small gaps can magnify and create dysfunction.
 
 ## Permanent Reference
 
-![](/assets/images/refurl.png)
+![]({{ site.baseurl }}/assets/images/refurl.png)
 
 The idea of a PURL for _resources_ on the Internet is an old one. Most HTML pages for records in a collection include a “reference URL” or “cite as” which indicates to the user how to reliably return to the object being viewed. With RERUM, we want to extend the courtesy of a stable home to `sc:Manifest`, `oa:Annotation`, and similar objects that are more often viewed only as attached to resources like books, paintings, and other records of “real things.”
 

@@ -13,13 +13,13 @@ tags:
 coverImage: "tpen28.jpg"
 ---
 
-## ![logo](/assets/images/Screen-Shot-2015-11-10-at-11.20.06-AM-1024x398.png)
+## ![logo]({{ site.baseurl }}/assets/images/Screen-Shot-2015-11-10-at-11.20.06-AM-1024x398.png)
 
 The Center for Digital Humanities is excited to announce the resumption of work of the T-PEN project (Transcription for Paleographical and Editorial Notation; [t-pen.org](http://t-pen.org/)). Since T-PEN launched in 2012 with generous funding from the [Andrew W. Mellon Foundation](http://www.mellon.org/) and the [NEH](http://www.neh.gov/), there have been 1500 unique users working on 2000 projects. New feature development, however, has been unfunded and proceeded at a crawl. Thanks to an investment from the Saint Louis University Libraries and coordination with several smaller funding sources, we are now in a position to both develop a significant improvement to the existing application and begin work on the next version (3.0).
 
 At this point, we are looking to the community around T-PEN, digital transcription tools, and digital humanities in general to help prioritize our work. Below, you will find the "must haves" we have already built into our schedule. In addition to possible features and tools we have imagined, we are soliciting your feedback to identify what comes first and what else may be targeted.
 
-## ![T-PEN 2.8](/assets/images/tpen28.png)
+## ![T-PEN 2.8]({{ site.baseurl }}/assets/images/tpen28.png)
 
 These features do not capsize the existing version of T-PEN, but upgrade the interface with new tools and clean up interactions with distributed resources.
 
@@ -39,7 +39,7 @@ At its launch, T-PEN had reached agreements with dozens of institutions to make 
 
 Modern browsers now allow for more exciting interactions with images, making it simpler to add things like grayscale filters, brightness and contrast, or color inversion. It is also possible to add better mouse-interactions and touch to make text and image annotation easier.
 
-## ![TPEN 3.0](/assets/images/Screen-Shot-2015-11-10-at-11.16.38-AM-300x217.png)
+## ![TPEN 3.0]({{ site.baseurl }}/assets/images/Screen-Shot-2015-11-10-at-11.16.38-AM-300x217.png)
 
 Version 3 is designed to separate the front-end of T-PEN from the back-end services it provides. This will allow for the more rapid development of specific interfaces for challenging transcription formats or specialized projects. Once released, 3.0 will replace the version at t-pen.org and existing users will have access to their projects under tthe new interface.
 

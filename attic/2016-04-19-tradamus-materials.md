@@ -6,7 +6,7 @@ categories:
 coverImage: "tradamus.jpg"
 ---
 
-**[![TRAD_Fullogo](/assets/images/TRAD_Fullogo-1024x200.png)](http://ongcdh.org/wp-content/uploads/2016/04/TRAD_Fullogo.png)Material**
+**[![TRAD_Fullogo]({{ site.baseurl }}/assets/images/TRAD_Fullogo-1024x200.png)](http://ongcdh.org/wp-content/uploads/2016/04/TRAD_Fullogo.png)Material**
 
 This information is not specifically about how to use this web application, but more about understanding the data model and the technical decisions made in its creation. Comprehending all this will help you work more effectively but is not required for basic use.
 
@@ -42,7 +42,7 @@ any digital pointer to a non-digital or unavailable resource that needs a hook p
 
  
 
-[![MATERIALS](/assets/images/MATERIALS-1024x95.png)](http://ongcdh.org/wp-content/uploads/2016/04/MATERIALS.png)
+[![MATERIALS]({{ site.baseurl }}/assets/images/MATERIALS-1024x95.png)](http://ongcdh.org/wp-content/uploads/2016/04/MATERIALS.png)
 
 * * *
 
@@ -76,7 +76,7 @@ _Annotations_
 
 List of all other annotations that target the material, but which may not be otherwise classifiable, including those imported from XML or JSON files.
 
-[![project](/assets/images/project-1024x200.png)](http://ongcdh.org/wp-content/uploads/2016/04/project.png)
+[![project]({{ site.baseurl }}/assets/images/project-1024x200.png)](http://ongcdh.org/wp-content/uploads/2016/04/project.png)
 
  
 

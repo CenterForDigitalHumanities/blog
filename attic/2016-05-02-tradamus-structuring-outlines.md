@@ -7,7 +7,7 @@ categories:
 coverImage: "tradamus.jpg"
 ---
 
-# [![TRAD_Fullogo](/assets/images/TRAD_Fullogo-1024x200.png)](http://ongcdh.org/wp-content/uploads/2016/04/TRAD_Fullogo.png)
+# [![TRAD_Fullogo]({{ site.baseurl }}/assets/images/TRAD_Fullogo-1024x200.png)](http://ongcdh.org/wp-content/uploads/2016/04/TRAD_Fullogo.png)
 
 **Outlines**
 
@@ -17,11 +17,11 @@ You cannot collate any material until you have put the desired material in a seg
 
 The Outline is where you will be doing the vast majority of your scholarly work. you can collate outlines, as well as annotate them as much as you want or need. you can tag them for more detailed indexing or apparatuses or to help with formatting during publication.
 
-[![OUTLINES](/assets/images/OUTLINES-1024x162.png)](http://ongcdh.org/wp-content/uploads/2016/04/OUTLINES.png)
+[![OUTLINES]({{ site.baseurl }}/assets/images/OUTLINES-1024x162.png)](http://ongcdh.org/wp-content/uploads/2016/04/OUTLINES.png)
 
  
 
-[![workflow](/assets/images/workflow-1024x151.png)](http://ongcdh.org/wp-content/uploads/2016/04/workflow.png)
+[![workflow]({{ site.baseurl }}/assets/images/workflow-1024x151.png)](http://ongcdh.org/wp-content/uploads/2016/04/workflow.png)
 
 * * *
 
