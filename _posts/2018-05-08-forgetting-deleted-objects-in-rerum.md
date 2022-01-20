@@ -17,19 +17,19 @@ At the Walter J. Ong, S.J. Center for Digital Humanities, we have been working h
 
 ## Considering
 
-Setting aside for now some of the nuance of the common REST practices and the [Web Annotation Standard](https://www.w3.org/TR/annotation-protocol/#delete-an-existing-annotation), we needed to determine what type of request we would accept, what transformation would happen to the data, and how the service would respond to the client application. Authentication (covered in depth in [another post](http://ongcdh.org/posts/development/authentication-and-attribution-in-rerum/)) is the first concern, since an **Open and Free** repository is a target for vandalism. Honestly communicating the "deleted" status of an object without breaking all references to it is served by appropriate **Version Control** (see [here](https://blog.ongcdh.org/development/versioning-in-rerum)). Combining these concerns, we realized it was not enough to "just remove" or "delete-flag" an object (specifically, a version of an object)—our repository has to heal the version history tree around it.
+Setting aside for now some of the nuance of the common REST practices and the [Web Annotation Standard](https://www.w3.org/TR/annotation-protocol/#delete-an-existing-annotation), we needed to determine what type of request we would accept, what transformation would happen to the data, and how the service would respond to the client application. Authentication (covered in depth in [another post](http://ongcdh.org/posts/development/authentication-and-attribution-in-rerum/)) is the first concern, since an **Open and Free** repository is a target for vandalism. Honestly communicating the "deleted" status of an object without breaking all references to it is served by appropriate **Version Control** (see [here](https://blog.ongcdh.org/development/versioning-in-rerum)). Combining these concerns, we realized it was not enough to "just remove" or "delete-flag" an object (specifically, a version of an object)—our repository has to heal the version history tree around it.
 
 Let's start with an abbreviated object (`prime` shown):
 
 { "@id"     : "http://store.rerum.io/rerumserver/id/01",
   "body"    : "content",
-  "\_\_rerum" : {
+  "__rerum" : {
       "generator" : "Application",
       "isReleased": "",
       "history"   : {
           "prime"    : "root",
           "previous" : "",
-          "next"     : \[ "http://store.rerum.io/rerumserver/id/02" \]
+          "next"     : [ "http://store.rerum.io/rerumserver/id/02" ]
       }
   }
 }
@@ -58,7 +58,7 @@ All these options follow this process:
 
 ![](https://docs.google.com/drawings/d/e/2PACX-1vQP2iO8-4bQkvYOMr8mD07HYHPZ4KwyC4-gYLPjRhLiigalQUn9Bjp14jdYf4kaAwNI94Jwa-VD8GDc/pub?w=906&h=726)In the first two cases, where the deleted version is not "root", the healing is fairly straightforward. The chain is simply pinched around the version, removing the object—those listed in the `h.next` array are updated (in `h.previous`) to point to the version from which the deleted version was derived. The `h.next` array in that version is updated to bypass the deleted object. In the case of deleting 02, above, 03 and 06 would now claim 01 as a parent and 01 would now have them as children.
 
-If, however, the deleted object is the original instance, the troubling reality is that every version refers to it as the `__rerum.history.prime` value. Moreover, by deleting it, the client has made an adjustment to reality, removing the timestamped "first moment" of the history. Trusting the client application and holding to our principles of freedom, we must allow this and document it well. For each child of 01, the original tree is broken into a new tree with that node as its root. This feels destructive, but reflects the intent of a client requesting such an action. Within that new tree (02, here), `h.prime` becomes "root" and the @id of the new root must be populated to all the descendants. The new prime also enters an unusual state ([explored more here](https://blog.ongcdh.org/development/editing-remote-objects-in-rerum)) where `h.prime` is "root" and there is a value for `h.previous`. By referring to the deleted object, it remains possible for an enterprising researcher to reconstruct the historical relationships in this tree, though no query will expose it simply.
+If, however, the deleted object is the original instance, the troubling reality is that every version refers to it as the `__rerum.history.prime` value. Moreover, by deleting it, the client has made an adjustment to reality, removing the timestamped "first moment" of the history. Trusting the client application and holding to our principles of freedom, we must allow this and document it well. For each child of 01, the original tree is broken into a new tree with that node as its root. This feels destructive, but reflects the intent of a client requesting such an action. Within that new tree (02, here), `h.prime` becomes "root" and the @id of the new root must be populated to all the descendants. The new prime also enters an unusual state ([explored more here](https://blog.ongcdh.org/development/editing-remote-objects-in-rerum)) where `h.prime` is "root" and there is a value for `h.previous`. By referring to the deleted object, it remains possible for an enterprising researcher to reconstruct the historical relationships in this tree, though no query will expose it simply.
 
 ## Nuking
 
@@ -66,7 +66,7 @@ What of the case where I want to obliterate and entire object, including all ver
 
 #### Application A
 
-This application seems to have the most right to commit this act, as the owner of the "prime" instance. However, there are intervening conditions here. No matter if you burn the tree from leaves to root or root to leaves, the result is the same. Removing 01 simply updates the tree to have 02 as prime and all nodes are updated. Removing 02 does the same with the side-effect of creating a tree from 03(A) and 06(B). Continuing to remove the 03 tree is easy, but an attempt to remove the 06 tree fails immediately, as "A" no longer "owns" it. This is appropriate, since "A" was allowed to purge the history of its contributions, but not those derived from them in the meanwhile. Clients using 08 and 09, will now only see the `h.prime` of 06, though they may traverse the records back to the original prime if they wish.
+This application seems to have the most right to commit this act, as the owner of the "prime" instance. However, there are intervening conditions here. No matter if you burn the tree from leaves to root or root to leaves, the result is the same. Removing 01 simply updates the tree to have 02 as prime and all nodes are updated. Removing 02 does the same with the side-effect of creating a tree from 03(A) and 06(B). Continuing to remove the 03 tree is easy, but an attempt to remove the 06 tree fails immediately, as "A" no longer "owns" it. This is appropriate, since "A" was allowed to purge the history of its contributions, but not those derived from them in the meanwhile. Clients using 08 and 09, will now only see the `h.prime` of 06, though they may traverse the records back to the original prime if they wish.
 
 #### Application B
 

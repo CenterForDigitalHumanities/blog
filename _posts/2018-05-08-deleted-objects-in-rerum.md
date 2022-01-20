@@ -45,7 +45,7 @@ To break the response without stranding the client, we need to disrupt the expec
 } } } } }
 ```
 
-In a typical interface from a consuming application, the rendered display would resolve the `@id` and bind to `response.body`. This is now undefined, and an aware interface (or a vocal audience) will quickly alert the developer of the change. Even a human who was ignorant of the RERUM API should be able to divine that the "new location" of their data is `__deleted.object.body` and the real-life meaning of that move should feel like plain English. At this point, the developer can choose to update the display to render the deleted object (hopefully with some notice) or replace it with an adjacent version referred to in the `history` property.
+In a typical interface from a consuming application, the rendered display would resolve the `@id` and bind to `response.body`. This is now undefined, and an aware interface (or a vocal audience) will quickly alert the developer of the change. Even a human who was ignorant of the RERUM API should be able to divine that the "new location" of their data is `__deleted.object.body` and the real-life meaning of that move should feel like plain English. At this point, the developer can choose to update the display to render the deleted object (hopefully with some notice) or replace it with an adjacent version referred to in the `history` property.
 
 ### Results
 

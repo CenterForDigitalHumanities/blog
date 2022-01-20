@@ -32,7 +32,7 @@ Scholarly assertions, descriptive annotations, and even the measurements and not
 
 #### Attribution is essential
 
-Productive communication between researchers requires reliable attribution. When individual  annotations (as above) are each attributed, collaboration becomes natural, and even complex concerns such as authorization are just acts of filtering.
+Productive communication between researchers requires reliable attribution. When individual  annotations (as above) are each attributed, collaboration becomes natural, and even complex concerns such as authorization are just acts of filtering.
 
 #### Format is ephemeral
 
@@ -48,11 +48,11 @@ Experts in any mature field are not only distributed across institutions, but th
 
 #### Standards facilitate openness
 
-The hope of web standards is a realm with the freedom to create software individually, the practicality of reusing or sharing software and the interchangeability of available functionality between software. for these reasons, we as developers in the field strive to follow the standards emerging for the web and for data. For the challenges our field faces, we often combine RESTful API practices, CORS, Web Annotation, Web Components, IIIF, JSON, JSON\-LD, and Linked Open Data standards together so that APIs and applications we create are automatically applicable to other APIs and applications built under the same guidelines.
+The hope of web standards is a realm with the freedom to create software individually, the practicality of reusing or sharing software and the interchangeability of available functionality between software. for these reasons, we as developers in the field strive to follow the standards emerging for the web and for data. For the challenges our field faces, we often combine RESTful API practices, CORS, Web Annotation, Web Components, IIIF, JSON, JSON\-LD, and Linked Open Data standards together so that APIs and applications we create are automatically applicable to other APIs and applications built under the same guidelines.
 
 ### Why a Public Alpha?
 
-Although we are moving ahead with several partners to make sure the Rerum design fulfills its promises, this is from us, not for us. Success happens when data is discoverable, accessible, and durable—no matter whose logo is in the footer. We want to give you a space to begin to engage with the service, to start to evaluate how it might prove a useful part of your project.
+Although we are moving ahead with several partners to make sure the Rerum design fulfills its promises, this is from us, not for us. Success happens when data is discoverable, accessible, and durable—no matter whose logo is in the footer. We want to give you a space to begin to engage with the service, to start to evaluate how it might prove a useful part of your project.
 
 As an alpha, we should not be a dependency for a production application or exhibit. Our plan is to inspire those dormant ideas that have been idling for lack of resources to spark to a level at which they may seek funding or become otherwise inevitable. For more immediate projects, we have a RERUM version 0, which is currently in use in several projects, but whose API and interactions do not meet the goals we have set for v1 for clarity, flexibility, and time to launch.
 

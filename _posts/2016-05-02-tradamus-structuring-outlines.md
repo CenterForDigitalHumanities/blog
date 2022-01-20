@@ -19,13 +19,13 @@ The Outline is where you will be doing the vast majority of your scholarly work.
 
 [![OUTLINES](images/OUTLINES-1024x162.png)](http://ongcdh.org/wp-content/uploads/2016/04/OUTLINES.png)
 
- 
+ 
 
 [![workflow](images/workflow-1024x151.png)](http://ongcdh.org/wp-content/uploads/2016/04/workflow.png)
 
 * * *
 
-For more information and to create an account go to [tradamus.org](http://tradamus.org/) 
+For more information and to create an account go to [tradamus.org](http://tradamus.org/) 
 
 We will be publishing a series of entries on this blog in the coming weeks on how to use tradamus.
 
