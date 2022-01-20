@@ -11,11 +11,11 @@ Any new web service or application must take a considered look at authorization,
 
 #### Data Services and the User Problem
 
-[caption id="" align="alignright" width="173"][![] (/assets/images/default.jpg)](https://dlcs.io/iiif-img/wellcome/1/a93ab63e-a827-45a1-b6d4-73224f09d455/full/full/0/default.jpg) For Example[/caption]
+[caption id="" align="alignright" width="173"][![](/assets/images/default.jpg)](https://dlcs.io/iiif-img/wellcome/1/a93ab63e-a827-45a1-b6d4-73224f09d455/full/full/0/default.jpg) For Example[/caption]
 
 Annotation services like [Hypothes.is](http://hypothes.is) and [Genius](https://genius.com/web-annotator) follow the user authentication model and work well as plug-ins to other applications, but are never truly integrated. They are much more standards-based and reliable than Facebook comments or modules like Discus, but still require a user account to authenticate. The problem with user accounts is that they expire even faster than users themselves. As an example, let's consider how analog records are made more durable. At `[https://wellcomelibrary.org/iiif/b22282804/manifest](https://wellcomelibrary.org/iiif/b22282804/manifest)`, there is a document representing a book published in 1862. The artifact itself claims J.C. Clendon, M.R.C.S is the author, but it does not lean only on that assertion. Immediately following the authorship statement is a qualifier connecting Clendon to Westminster Hospital and the Hospital School. As further authentication, the title page also offers the Greenwich Medical Society as witnesses to its reading. Finally, to lend trust to the assertion of the credentials presented, a publisher is also presented.
 
-![] (/assets/images/default.jpg) Analog attribution and authentication
+![](/assets/images/default.jpg) Analog attribution and authentication
 
 #### Knowing
 

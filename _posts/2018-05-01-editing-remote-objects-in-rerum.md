@@ -10,9 +10,9 @@ tags:
 coverImage: "Western_front._Shipping_art_objects_from_the_imperiled_museum_at_Valenciennes_to_safer_storage._July_1917_-_NARA_-_173909521.jpg"
 ---
 
-[![] (/assets/images/default.jpg "https://wellcomelibrary.org/iiif/b22282804/annos/contentAsText/a18t0")](https://dlcs.io/iiif-img/wellcome/1/9089aa93-610c-436e-8e5d-36aedfd041f0/73,254,1443,64/!1024,1024/0/default.jpg)
+[![](/assets/images/default.jpg "https://wellcomelibrary.org/iiif/b22282804/annos/contentAsText/a18t0")](https://dlcs.io/iiif-img/wellcome/1/9089aa93-610c-436e-8e5d-36aedfd041f0/73,254,1443,64/!1024,1024/0/default.jpg)
 
-![] (/assets/images/squarelogo64.png) [View full catalogue record](https://search.wellcomelibrary.org/iii/encore/record/C__Rb2228280)
+![](/assets/images/squarelogo64.png) [View full catalogue record](https://search.wellcomelibrary.org/iii/encore/record/C__Rb2228280)
 
 One use case that has recently captured our imagination in the Center is that posed by the updating of otherwise inaccessible objects. For example, if a user found a [transcription annotation](https://wellcomelibrary.org/iiif/b22282804/contentAsText/18) at the Wellcome Library which they wanted to update, but there was no accessible annotation service mentioned, that user may find help in a Rerum-connected application. Without specific accommodations, it is likely that we have just encountered another "cut and paste" disjunction when the annotation is created anew in a system without any organized reference to its provenance.
 

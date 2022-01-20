@@ -18,11 +18,11 @@ To select from the image manipulation options in T-PEN established a number of v
 
 These two simple principles did give a short list very fast. -  invert, gray scale, brightness and  contrast. All four pass the first principle easily but the second one is a little more challenging. That is because by themselves they have limited utility. However these four tools work extremely well together. So much so that brightness and contract have almost always been presented together as a combined tool in image manipulation apps for instance. Invert is a surprise for many users. We forget the degree to which we are conditioned the codex. White page with black script. Some of us who are old enough to remember green screens do so so with fondness. White type on a black screen can be easier to read than black type on white. One must remember the human eye deals with projected light a little differently than reflected light. This is especially true if invert is used in conjunction with grayscale and a little brightness/contrast.
 
-[![] (/assets/images/Screen-Shot-2017-03-29-at-11.25.57-AM-1024x482.png)](http://ongcdh.org/wp-content/uploads/2017/03/Screen-Shot-2017-03-29-at-11.25.57-AM.png)_Giving it everything you got_
+[![](/assets/images/Screen-Shot-2017-03-29-at-11.25.57-AM-1024x482.png)](http://ongcdh.org/wp-content/uploads/2017/03/Screen-Shot-2017-03-29-at-11.25.57-AM.png)_Giving it everything you got_
 
 If you are on a mac go look at the accessibility options for your display in accessibility on your System Preferences panel because you'll find invert, grayscale and contrast looking back at you. These represent the simplest way to improve readability. they are not always the best but not everyone has a photoshop guru to help them out.
 
-[![] (/assets/images/Screen-Shot-2017-03-29-at-11.24.24-AM.png)](http://ongcdh.org/wp-content/uploads/2017/03/Screen-Shot-2017-03-29-at-11.24.24-AM.png)
+[![](/assets/images/Screen-Shot-2017-03-29-at-11.24.24-AM.png)](http://ongcdh.org/wp-content/uploads/2017/03/Screen-Shot-2017-03-29-at-11.24.24-AM.png)
 
 In the manuscript world where text can often be faded brown on a tan background this combination of tools may surprise you.
 

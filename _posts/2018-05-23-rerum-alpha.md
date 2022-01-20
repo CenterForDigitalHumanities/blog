@@ -10,7 +10,7 @@ coverImage: "rerum.jpg"
 
 Come one, come all.
 
-![screenshot] (/assets/images/site.png)
+![screenshot](/assets/images/site.png)
 
 ### What is this Rerum of which we Tweet?
 
