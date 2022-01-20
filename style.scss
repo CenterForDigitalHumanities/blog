@@ -206,6 +206,7 @@ img {
 
 .site-info {
   float: left;
+  width: calc(100% - 85px);
 
   @include mobile {
     float: none;

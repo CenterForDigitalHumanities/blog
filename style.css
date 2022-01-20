@@ -623,6 +623,7 @@ img {
 
 .site-info {
   float: left;
+  width: calc(100% - 85px);
 }
 @media screen and (max-width: 640px) {
   .site-info {
