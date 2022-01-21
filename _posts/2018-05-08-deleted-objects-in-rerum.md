@@ -8,7 +8,7 @@ coverImage: "rerum.jpg"
 author: "Patrick Cuba"
 ---
 
-In the [last post](http://ongcdh.org/posts/development/forgetting-deleted-objects-in-rerum/), we explored how the tree of the version history is healed around a deleted object. In this post, we look more directly at the transformations to the deleted object itself. Let's take the same abbreviated object to begin:
+In the [last post]({{ site.baseurl }}/posts/development/forgetting-deleted-objects-in-rerum/), we explored how the tree of the version history is healed around a deleted object. In this post, we look more directly at the transformations to the deleted object itself. Let's take the same abbreviated object to begin:
 
 ```json
 { "@id"     : "http://store.rerum.io/rerumserver/id/01",

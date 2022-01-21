@@ -20,6 +20,7 @@ Below you will see an empty Manifest. There is a GeoJSON service attached to the
 
 ##### Example JSON
 
+```json
 {
    "@context":[
       "http://iiif.io/api/presentation/2/context.json",
@@ -51,6 +52,7 @@ Below you will see an empty Manifest. There is a GeoJSON service attached to the
       ]
    }
 }
+```
 
 ##### Important Implementation Notes
 
@@ -75,5 +77,3 @@ The IIIF Cookbook Community Group, in coordination with the IIIF Maps Community 
 ##### Next Step
 
 With the release of [IIIF Presentation API 3.0](https://iiif.io/api/presentation/3.0/) looming, we would like to investigate if the improved API could support geographic assertions.
-
-[GO TO PREV BLOG](http://ongcdh.org/experiments/geolocating-with-iiif-presentation-api-2-1-annotation)       [GO TO NEXT BLOG](http://ongcdh.org/experiments/geolocating-with-iiif-presentation-api-3-0-part-1)

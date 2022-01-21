@@ -18,6 +18,7 @@ Below you will see an empty Manifest geolocated via a GeoJSON service. The body 
 
 ##### Example JSON
 
+```json
 {
     "@context":[
        "http://geojson.org/geojson-ld/geojson-context.jsonld",
@@ -54,7 +55,7 @@ Below you will see an empty Manifest geolocated via a GeoJSON service. The body 
         }
     ]
 }
-
+```
 ##### Important Implementation Notes
 
 - To support interoperability through Linked Data, the [IIIF Presentation API 3.0](http://iiif.io/api/presentation/3/context.json) and [GeoJSON-LD 1.0](http://geojson.org/geojson-ld/geojson-context.jsonld) context are included at the top of the document.
@@ -76,5 +77,3 @@ The IIIF Cookbook Community Group, in coordination with the IIIF Maps Community 
 ##### Next Step
 
 Continue to push for standards in the geospatial communities by improving the specifications they rely on.  There are other methods being used to transmit and render coordinate data over the Web and other systems.  Though some may be specialized enough to require their own syntax, interoperability can only be improved through standardization of these geospatial data practices.
-
-[GO TO PREV BLOG](http://ongcdh.org/experiments/geolocating-with-iiif-presentation-api-3-0-part-2/)        Next Blog Coming Soon

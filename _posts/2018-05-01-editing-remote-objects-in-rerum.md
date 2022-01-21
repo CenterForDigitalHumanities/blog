@@ -19,19 +19,19 @@ One use case that has recently captured our imagination in the Center is that po
 
 ## Trust and Authentication
 
-Trust is [a complex thing](https://blog.ongcdh.org/development/authentication-and-attribution-in-rerum) on the Internet. Applications generating annotations (or any other object) are free to assert an appropriate `seeAlso` or `derivedFrom` relationship, but it is as easy to mistake as it is to omit. Further, it would only be needed on a newly created RERUM object, meaning there is no automatic way to detect if the relationship should be expected on a new POST.
+Trust is [a complex thing]({{ site.baseurl }}/authentication-and-attribution-in-rerum) on the Internet. Applications generating annotations (or any other object) are free to assert an appropriate `seeAlso` or `derivedFrom` relationship, but it is as easy to mistake as it is to omit. Further, it would only be needed on a newly created RERUM object, meaning there is no automatic way to detect if the relationship should be expected on a new POST.
 
 Within our ecosystem, there is the [`__rerum` property](https://centerfordigitalhumanities.github.io/rerum-cloud/api.html#__rerum), which is reliably added to objects and is a Source of Truth for object metadata, such as creation date, versioning, and the generating application. This, then, is where the connection to a remote version of an object must be made, if it is to be trusted by any consumer. Though the internal assertions in each object may carry much more detail and meaning, the repository must have a way to simply reference the origin of an "external" version.
 
 ## Welcoming Guests
 
-[Versioning in Rerum](https://blog.ongcdh.org/development/versioning-in-rerum/) relies on the `__rerum.history` property and the relationships it identifies ([@context](https://github.com/CenterForDigitalHumanities/rerum_server/issues/25)):
+[Versioning in Rerum]({{ site.baseurl }}/versioning-in-rerum/) relies on the `__rerum.history` property and the relationships it identifies ([@context](https://github.com/CenterForDigitalHumanities/rerum_server/issues/25)):
 
 - _prime_ is assigned to the first instance of any new object as the root of the version tree—every new version refers to the IRI of this first version;
 - _previous_ is the single version from which this version was derived; and
 - _next_ is an array of any versions for which this is _previous_.
 
-As all versioning is only maintained through reference, it is critically important that our server accurately process all manipulations to the database to preserve the integrity of the trees. In normal cases, when all versions of an object exist within the same database, there are only three simple configurations (excluding [deletions](https://blog.ongcdh.org/development/forgetting-deleted-objects-in-rerum)):
+As all versioning is only maintained through reference, it is critically important that our server accurately process all manipulations to the database to preserve the integrity of the trees. In normal cases, when all versions of an object exist within the same database, there are only three simple configurations (excluding [deletions]({{ site.baseurl }}/forgetting-deleted-objects-in-rerum)):
 
 1. _Version 1_ is the only version generated with the "create" action. It has a value of "root" for `history.prime` and no value for `history.previous`.
 2. _Internal Nodes_ always have a value for `history.previous` and `history.next` with the same IRI in `history.prime`. Only an "update" action generates these.

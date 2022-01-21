@@ -61,8 +61,8 @@ As an alpha, we should not be a dependency for a production application or exhib
 
 Feel free to read up on Rerum at [rerum.io](http://rerum.io) or get into the weeds with some of the blog posts below. If you already know you need in, register your application at [devstore.rerum.io](http://devstore.rerum.io/v1/), pop your API key into you project (or [clone ours](https://github.com/CenterForDigitalHumanities/TinyThings)), and start saving annotations, transcriptions, commentary, manifests, image collections, and more immediately.
 
-- [Authentication and Attribution in RERUM](https://blog.ongcdh.org/development/authentication-and-attribution-in-rerum/)
-- [Deleted Objects in RERUM](https://blog.ongcdh.org/development/deleted-objects-in-rerum/)
-- [Forgetting Deleted Objects in RERUM](https://blog.ongcdh.org/development/forgetting-deleted-objects-in-rerum/)
-- [Versioning in RERUM](https://blog.ongcdh.org/development/versioning-in-rerum/)
-- [Editing Remote Objects in RERUM](https://blog.ongcdh.org/development/editing-remote-objects-in-rerum/)
+- [Authentication and Attribution in RERUM]({{ site.baseurl }}/authentication-and-attribution-in-rerum/)
+- [Deleted Objects in RERUM]({{ site.baseurl }}/deleted-objects-in-rerum/)
+- [Forgetting Deleted Objects in RERUM]({{ site.baseurl }}/forgetting-deleted-objects-in-rerum/)
+- [Versioning in RERUM]({{ site.baseurl }}/versioning-in-rerum/)
+- [Editing Remote Objects in RERUM]({{ site.baseurl }}/editing-remote-objects-in-rerum/)

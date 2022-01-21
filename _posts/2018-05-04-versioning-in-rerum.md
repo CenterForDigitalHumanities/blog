@@ -16,7 +16,7 @@ author: "Patrick Cuba"
 
 Versioning as it is known in software is simply the process of preserving previous iterations of a document when changes are made. There are many systems available to the developer which differ in centralization, cloning behaviors, delta encoding, etc., but for our purposes, the philosophy and utility should suffice.
 
-[![]({{ site.baseurl }}/assets/images/versions2-1-300x167.png)](http://ongcdh.org/wp-content/uploads/2018/01/versions2-1.png)
+[![]({{ site.baseurl }}/assets/images/versions2-1-300x167.png)]({{ site.baseurl }}/wp-content/uploads/2018/01/versions2-1.png)
 
 From a mile up, versioning resembles different editions of a published work. Even when the new work supersedes the previous, both are maintained so that they can be cited reliably and the changes between them may become an interesting piece of the academic conversation as well. In the digital world, new versions can come quickly and the differences between them are often quite small. However, in an ecosystem like Linked Open Data, that presumes most resources are remote and have a permanent and reliable reference, even small gaps can magnify and create dysfunction.
 
@@ -59,10 +59,7 @@ but the museum project remains unchanged.
 the public project is updated without breaking the paleographer’s edition.
 
 So the history of A2 looks like this:
-
-```monospaced
-
-```
+[![version block illustration]({{ site.baseurl }}/assets/images/bloc2-300x178.png)]({{ site.baseurl }}/assets/images/bloc2.png)
 
 Now the model works for everyone. The museum has an open project, the paleographer has a project she controls, and every contribution through history is automatic. The problem that has been introduced, however, is how should a Manifest viewer display these annotations? To show them all in all their versions would quickly overwhelm, but depending on the moment the “most recent” annotation may be from either branch. Moreover, the paleographer may not intend for these annotations, though stored in an open repository, to be considered a finished project, suitable for display or citing. The simplest answer is that a repository can publish their Manifest with all the intended annotations included, but that undermines the possibilities of an open store.
 

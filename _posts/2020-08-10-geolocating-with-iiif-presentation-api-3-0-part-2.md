@@ -18,6 +18,7 @@ Below you will see an IIIF Presentation 3.0 Manifest that contains a single Canv
 
 ##### Example JSON
 
+```json
 {
   "@context": [
     "http://geojson.org/geojson-ld/geojson-context.jsonld",
@@ -132,6 +133,7 @@ Below you will see an IIIF Presentation 3.0 Manifest that contains a single Canv
     }
   ]
 }
+```
 
 ##### Important Implementation Notes
 
@@ -156,5 +158,3 @@ The IIIF Cookbook Community Group, in coordination with the IIIF Maps Community 
 ##### Next Step
 
 IIIF Presentation API 3.0 also has services. We need to investigate whether or not these services can support GeoJSON-LD.
-
-[GO TO PREV BLOG](https://blog.ongcdh.org/blog/experiments/geolocating-with-iiif-presentation-api-3-0-part-1/)        [GO TO NEXT BLOG](https://blog.ongcdh.org/blog/experiments/geolocating-with-iiif-presentation-api-3-0-part-3/)

@@ -18,6 +18,7 @@ Below you will see an empty Manifest geolocated via a geographic polygon. There 
 
 ##### Example JSON
 
+```json
 {
    "@context":[
       "http://geojson.org/geojson-ld/geojson-context.jsonld",
@@ -99,6 +100,7 @@ Below you will see an empty Manifest geolocated via a geographic polygon. There 
       }
    ]
 }
+```
 
 ##### Important Implementation Notes
 
@@ -122,5 +124,3 @@ The IIIF Cookbook Community Group, in coordination with the IIIF Maps Community 
 ##### Next Step
 
 The main goal is to ensure we can make all the basic kinds of assertions through IIIF resource types. We know we can geolocate an entire resource to a Polygonal coordinate area. The other basic assertion is to geolocate some fragment of a resource contained within a Manifest.
-
-[GO TO PREV BLOG](https://blog.ongcdh.org/blog/experiments/geolocating-with-iiif-presentation-api-2-1-services/)       [GO TO NEXT BLOG](https://blog.ongcdh.org/blog/experiments/geolocating-with-iiif-presentation-api-3-0-part-2/)
