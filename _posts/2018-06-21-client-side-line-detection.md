@@ -9,6 +9,7 @@ tags:
   - "thinking-aloud"
   - "transcription"
 author: "Patrick Cuba"
+excerpt: "![]({{ site.baseurl }}/assets/images/sppp.png)"
 ---
 
 ## Does not compute
