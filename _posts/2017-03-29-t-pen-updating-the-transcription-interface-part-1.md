@@ -10,7 +10,7 @@ tags:
   - "ux"
 ---
 
-The Center had the good fortune last year to work on an custom imbedded version of TPEN for the [New French Paleography website](https://paleography.library.utoronto.ca) from Newberry Library. University of Toronto did a great job of building out the site while we turn the backend of TPEN into web services to allow for more flexible versions of the front end transcription interface to accommodate Newberry's needs and to better suit early modern French Paleography. This year we are able to bring those changes into [T-Pen.org](http://t-pen.org).
+The Center had the good fortune last year to work on an custom imbedded version of TPEN for the [New French Paleography website](https://paleography.library.utoronto.ca) from Newberry Library. University of Toronto did a great job of building out the site while we turn the backend of TPEN into web services to allow for more flexible versions of the front end transcription interface to accommodate Newberry's needs and to better suit early modern French Paleography. This year we are able to bring those changes into [t-pen.org](http://t-pen.org).
 
 This constitutes the first major update to the interface since its launch and while long past due we were able to use feed back from the last five years to enable us to focus on the needs of our users. So building on that and the work we did for NewBerry we set to work.
 

@@ -5,15 +5,13 @@ categories:
   - "eventities"
 ---
 
-## The Birth of an Identity
-
-## ![]({{ site.baseurl }}/assets/images/wwi-letters-7-jun-1918001.jpg)
-
 Let's take a real case and find out what it indicates and how it ought to be annotated. This image is the first page of a six page (3 folio) letter from Private Allen Gooch to his family, but let's not get ahead of ourselves.
+
+## ![WWI letters 7 June 1918](https://lh5.googleusercontent.com/B8Ir-0GKibjHt56I6GbVlF_LCinTxWISxGa2k8dLixLLRa_i2KL9rN_NRtdB-ZjTDhYnGJLKh5o6bP59J1LXcqsmb4iAX_yk9qjjHIT3Ee0MA1fYv2qF2hHTDJEJ9C4vYw)
 
 ### Find an artifact
 
-According to [ongrannystrail.com](https://www.google.com/url?q=https://ongrannystrail.com/2012/09/09/i-went-out-of-my-tent-and-saw-about-twenty-flying-machines/&sa=D&ust=1515534612898000&usg=AFQjCNGXXRGQEc2kzwwdax25lwhYVkZEJg), Dayna Gooch Jacobs has a letter from World War I. There are already strong cataloguing and metadata description schemata to make this real thing a well-described lump of matter. At this point, the way in which it is discovered is decidedly analog:
+According to [ongrannystrail.com](https://www.google.com/url?q=https://ongrannystrail.com/2012/09/09/i-went-out-of-my-tent-and-saw-about-twenty-flying-machines/&sa=D&ust=1515534612898000&usg=AFQjCNGXXRGQEc2kzwwdax25lwhYVkZEJg), Dayna Gooch Jacobs has a letter from World War I. There are already strong cataloging and metadata description schemata to make this real thing a well-described lump of matter. At this point, the way in which it is discovered is decidedly analog:
 
 > "Hello, Mrs. Jacobs? Would you mind if I stopped by to look at your WWI letter?"
 
@@ -25,7 +23,7 @@ Such a request is possible in many ways, but is already reliant on a vast knowle
 
 ### Establish Uniqueness
 
-### ![]({{ site.baseurl }}/assets/images/dsc_0761-002.jpg)
+![](https://lh3.googleusercontent.com/DNr3GUkHzc3wEcnM8YyTHxLoOBPxPiSre00uUTA5DRZunmafxaQvu8DeDNrDTM9jnhoT13c6HBkLY7FZxh38_zKRKlp-TjRIL8Wt8C9HvgAAB3uWmWHBVpOTPXlHlYgOCw){: .pull-right}
 
 In the human world, there is a lot of fuzziness in definition. This is fine because we are comfortable replacing definition with a preponderance of description. Even with a name "Dayna Gooch Jacobs" and a photo (right), to really find the right person, a researcher may want an address, measurements, occupation, even DNA. The digital world solves this with URIs. If I say, "1" and commit to never referring to that "1" again for any other object, I can reliably reference it over and over. In fact, even if the entire resource vaporizes, the corpus of annotations that point to it can still describe it. In this way, an authority file isn't even necessary, except to assure the uniqueness of the identifier. In JSON-LD, we're looking at something like this:
 
