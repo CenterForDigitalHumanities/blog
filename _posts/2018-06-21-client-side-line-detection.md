@@ -8,6 +8,7 @@ tags:
   - "image-manipulation"
   - "thinking-aloud"
   - "transcription"
+author: "Patrick Cuba"
 ---
 
 ## Does not compute

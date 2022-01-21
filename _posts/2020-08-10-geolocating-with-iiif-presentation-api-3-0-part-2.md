@@ -7,6 +7,7 @@ categories:
   - "technology"
 tags: 
   - "geojson"
+author: "Bryan Haberberger"
 ---
 
 Annotation was successful during the first phase of using IIIF Presentation API 3.0 for geolocating an entire Web entity.  Another piece is to ensure that we could provide geolocated assertion upon an entity fragment, since situations like inset maps are common and need specific geospatial information that does not apply to the entire entity.

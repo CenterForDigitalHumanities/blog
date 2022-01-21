@@ -7,6 +7,7 @@ categories:
   - "technology"
 tags: 
   - "geojson"
+author: "Bryan Haberberger"
 ---
 
 The experience with Annotation during the initial phases of implementing this syntax was positive. We found it prudent to investigate Annotation again using [IIIF Presentation API 3.0](https://iiif.io/api/presentation/3.0/).

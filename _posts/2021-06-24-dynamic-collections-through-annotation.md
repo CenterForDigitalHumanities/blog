@@ -3,6 +3,7 @@ title: "Dynamic Collections Through Annotation"
 date: "2021-06-24"
 categories: 
   - "posts"
+author: "Patrick Cuba"
 ---
 
 Combining remote resources into useful, curated Collections can be difficult. IIIF describes the look of these collections, but they are usually hosted by the same repository as the included items. Ong CDH has implemented two different methods for creating changeable collections that can be used by researchers and programmers alike. Demonstrations will include real resources and public services available to everyone.

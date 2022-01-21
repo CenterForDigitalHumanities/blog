@@ -5,6 +5,7 @@ categories:
   - "experiments"
   - "iiif"
   - "technology"
+author: "Bryan Haberberger"
 ---
 
 The OCDH has been involved with the [International Image Interoperability Framework](https://iiif.io)™ (IIIF) since its beginning.  We are adept with Annotation to supply supplementary data to data resources that are owned by others.  We have our own public open annotation store and Web API known as [RERUM](http://rerum.io) to support this ecosystem of assertions.  The scope of IIIF encompasses media like Image, 3D, and A/V files within the Internet of Things. Our challenge of People + Places + Things + Events extends beyond this scope but is still driven by the standards and best practices employed by such a framework.  We focus on [Web Annotation](https://www.w3.org/TR/annotation-model/) which IIIF uses to supplement the data resources under its scope.  We realized using IIIF resources as subjects for geographic Web Annotations could set some foundation for standardized, interoperable, usable, and geospatially described linked open data in the broader Internet of Things.

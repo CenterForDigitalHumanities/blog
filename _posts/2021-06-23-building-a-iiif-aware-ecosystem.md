@@ -3,6 +3,7 @@ title: "Building a IIIF-Aware Ecosystem"
 date: "2021-06-23"
 categories: 
   - "posts"
+author: "Patrick Cuba"
 ---
 
 OngCDH would not be able to operate as lean as it does without a convenient foundation of tools to work access, manipulate, and create IIIF and Web Annotation compliant Objects. The existence of the standard has allowed for useful tools for application logic, such as Manifest in the IIIF-Commons, but we have extended this usefulness to create interfaces, utilities, public data APIs, and templating frameworks for rapid deployment of prototypes, classroom projects, and specialized web portals. This session will not only offer a tour of the principles and parts of our ecosystem, but showcase the pieces of it that are already available to the public and the projects that have benefited from it including: Lived Religion in a Digital Age, a data collection and visualization project around sacred spaces; Glossing Matthew, a paleography project combining transcription, lemmatization, and annotation to visualize biblical glosses; Newberry Library Renaissance Paleography, a self-directed educational module; and the Dunbar Archive, a digital repository combining a dispersed and varied collection of manuscripts, artifacts, locations, and people related to the poet laureate. Completed, active, and forthcoming projects will be demonstrated. Content is designed for developers, but is accessible enough for anyone with an interest in building a bespoke digital humanities project.

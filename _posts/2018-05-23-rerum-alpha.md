@@ -6,6 +6,7 @@ categories:
   - "news"
   - "rerum"
 coverImage: "rerum.jpg"
+author: "Patrick Cuba"
 ---
 
 Come one, come all.

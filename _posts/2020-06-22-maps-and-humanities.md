@@ -5,6 +5,7 @@ categories:
   - "development"
   - "experiments"
   - "technology"
+author: "Bryan Haberberger"
 ---
 
 It should not be a surprise that data describing humanity depends heavily on the dimensions of time and space.  How else can data representing human interaction, error, rectification, discovery, or adventure exist without these dimensions?  The human construct of reality stands on concepts that give bounds to infinity.  Time and space afford humans the concepts of change that describe their existence in this construct.  The human ability to communicate is born of these concepts.  Humanity, and perhaps all biologic life, without time and space or without the concepts of change and difference is not well described.  It is significant that humans live on planet Earth in the Milky Way galaxy, a distinction one might take for granted, and one that may change with time.  

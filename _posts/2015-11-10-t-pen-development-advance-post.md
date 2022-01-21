@@ -11,6 +11,7 @@ tags:
   - "tpen-3-0"
   - "transcription"
 coverImage: "tpen28.jpg"
+author: "Patrick Cuba"
 ---
 
 ## ![logo]({{ site.baseurl }}/assets/images/Screen-Shot-2015-11-10-at-11.20.06-AM-1024x398.png)

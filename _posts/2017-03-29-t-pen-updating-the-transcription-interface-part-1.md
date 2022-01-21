@@ -8,6 +8,7 @@ tags:
   - "tpen-2-8"
   - "transcription"
   - "ux"
+author: "Donal Hegarty"
 ---
 
 The Center had the good fortune last year to work on an custom imbedded version of TPEN for the [New French Paleography website](https://paleography.library.utoronto.ca) from Newberry Library. University of Toronto did a great job of building out the site while we turn the backend of TPEN into web services to allow for more flexible versions of the front end transcription interface to accommodate Newberry's needs and to better suit early modern French Paleography. This year we are able to bring those changes into [t-pen.org](http://t-pen.org).

@@ -5,6 +5,7 @@ categories:
   - "development"
   - "rerum"
 coverImage: "rerum.jpg"
+author: "Patrick Cuba"
 ---
 
 Any new web service or application must take a considered look at authorization, authentication, and attribution—authorization, to make changes to data; authentication, to ensure those making changes are known; and attribution, to apply proper credit for contributions. The prevailing practice is to authenticate users within applications and using appropriate context to make attributions. Popular transcription software, like [TPEN](http://t-pen.org) and [FromThePage](https://fromthepage.com/), rely on user accounts and a private database to authenticate, attaching attribution based on the user's account information in the interface and whenever the data is exported, for example, as a IIIF manifest document. Our goal to make RERUM a potent supplement to the heavier data APIs these type of interfaces rely on forced us to reevaluate the "obvious" choice to create and authenticate users.

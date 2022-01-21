@@ -9,6 +9,7 @@ tags:
   - "text"
   - "word-list"
 coverImage: "image-2-e1540479483681.png"
+author: "Patrick Cuba"
 ---
 
 As IIIF Manifests increasingly contain transcription annotations, the tools that are able to handle these documents must also treat text content as a first-class citizen. In our TPEN software, users regularly generate new annotations with text content that is included in the manifest documents made available for every project. In addition, TPEN allows for the easy inclusion of split-screen tools in the transcription interface, so I often spend some time experimenting with possible tools that assist in transcription, connect resources, or generate useful visualizations.

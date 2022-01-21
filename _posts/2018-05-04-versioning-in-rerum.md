@@ -11,6 +11,7 @@ tags:
   - "versioning"
   - "web-annotation"
 coverImage: "bloc2.png"
+author: "Patrick Cuba"
 ---
 
 Versioning as it is known in software is simply the process of preserving previous iterations of a document when changes are made. There are many systems available to the developer which differ in centralization, cloning behaviors, delta encoding, etc., but for our purposes, the philosophy and utility should suffice.
