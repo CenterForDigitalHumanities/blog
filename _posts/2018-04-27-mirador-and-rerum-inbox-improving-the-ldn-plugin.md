@@ -26,7 +26,7 @@ This wonderful contribution to the Mirador community from Jeffrey C. Witt has be
 
 It was originally created with Tables of Contents in mind and has continually been updated to support the sorts of `sc:Ranges` objects that make up ToCs and other structures within Manifests. In this way, a scholar (or organization) who has created content that supplements a Manifest to which she has no access (for example, one hosted at a national library) can enhance the available information without imposing on or mirroring the original object in its hosting repository.
 
-[caption id="" align="aligncenter" width="1425"][![]({{ site.baseurl }}/assets/images/example.gif)](https://mirador.scta.info) The Mirador plugin in use at https://mirador.scta.info[/caption]
+[![]({{ site.baseurl }}/assets/images/example.gif)](https://mirador.scta.info) <figcaption>The Mirador plugin in use at https://mirador.scta.info</figcaption>
 
 The plugin creates a simple UI (above) for exposing to the user when an [Announcement](https://www.w3.org/ns/ldp) is available for the resource loaded into the window and prompting to include it as part of the working object. Having proven itself with Range objects, the next step was to include annotations.
 
