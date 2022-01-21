@@ -27,21 +27,25 @@ Such a request is possible in many ways, but is already reliant on a vast knowle
 
 In the human world, there is a lot of fuzziness in definition. This is fine because we are comfortable replacing definition with a preponderance of description. Even with a name "Dayna Gooch Jacobs" and a photo (right), to really find the right person, a researcher may want an address, measurements, occupation, even DNA. The digital world solves this with URIs. If I say, "1" and commit to never referring to that "1" again for any other object, I can reliably reference it over and over. In fact, even if the entire resource vaporizes, the corpus of annotations that point to it can still describe it. In this way, an authority file isn't even necessary, except to assure the uniqueness of the identifier. In JSON-LD, we're looking at something like this:
 
+```json
 { "@id" : "1" }
 
 This is much better if we upgrade the identifier to something resolvable ([or at least unique](http://www.taguri.org/)) like:
 
 { "@id" : "http://example.org/people/1" } or
 { "@id" : "tag:ongrannystrail.com:DaynaGoochJacobs" }
+```
 
 In the same way, the letter can be identified. There is already a great standard for describing the digital object in IIIF, so if we allow for a URI that stands in for the real object, we can link it to the `sc:Manifest` that represents the digitization of it:
 
+```json
 { "@id" : "http://example.org/manifests/05",
   "@type" : "sc:Manifest",
   "label" : "WWI Letter from Private Gooch",
   "pto:Facsimile" : "http://example.org/item/2a9de-033",
   "sequences" : [ "http://example.org/sequences/m05" ]
 }
+```
 
 So far, so good.
 
@@ -65,9 +69,9 @@ This is helpful to humans, but inaccessible to robots. Moreover, if I wish to cr
 
 A better description is possible. I would like to add the author as the `dc:creator` of this item and the derivative digital objects. The prevailing convention adds the property as metadata to the objects as a simple key-value pair. This is the simplest way to render these items in a viewer, but the structure cannot allow for any advantages over the description except for the granularity. The best annotation asserts a creator with evidence and attribution. There are three places to find this evidence:
 
-1. Transcription—in Dayna Jacobs's article, the end of the posted transcription reads: "Private Allen L. Gooch Troop A, 314th Military Police, 89th Division.  American Expeditionnary Forces."
-2. Image Annotation—The image resource is a great example of the type of specific evidence useful in these types of assertions. If someone wants to criticize, the image explains that I have determined the creator based on the signature on the letter, which may be forged or otherwise untrustworthy. 
-3. Scholarly Assertion—Without any other evidence, a scholar should be able to stake an assertion on his own reputation. To do so may weaken the suggestion, but it does not eliminate it. In fact, as in mathematics or Wikipedia, it may serve as a beacon to others to find better evidence for the claim.
+1. **Transcription**—in Dayna Jacobs's article, the end of the posted transcription reads: "Private Allen L. Gooch Troop A, 314th Military Police, 89th Division.  American Expeditionnary Forces."
+2. **Image Annotation**—The image resource is a great example of the type of specific evidence useful in these types of assertions. If someone wants to criticize, the image explains that I have determined the creator based on the signature on the letter, which may be forged or otherwise untrustworthy. 
+3. **Scholarly Assertion**—Without any other evidence, a scholar should be able to stake an assertion on his own reputation. To do so may weaken the suggestion, but it does not eliminate it. In fact, as in mathematics or Wikipedia, it may serve as a beacon to others to find better evidence for the claim.
 
 What needs to be acknowledged here is that no description is absolute. What had been descriptive metadata is now asserted description by some `foaf:Agent` because of evidence. If I were to resolve the above `sc:Manifest` at the Smithsonian, I would probably trust it. I would feel better knowing that the Smithsonian is actually asserting the particular piece of metadata I am interested in (date, author, etc.) formally, since it is possible this object was just ingested from some other collection and has not been reviewed. It would be even better to know that Carol, a trusted employee for over 25 years, was the metadata librarian who dated this and several other letters of the same period.
 
@@ -144,31 +148,38 @@ It is clear that spending time with assumed evidence is inefficient and so conve
 
 The simple object for the sergeant is easily constructed (with `@context` omitted):
 
+```json
 { "@id" : "tag:ongrannystrail.com:SergeantA314",
   "@type" : "foaf:Person",
   "label" : "Troop A 314th Sergeant (unnamed)"  
   "gender" : "male",
   "hometown" : "Hachita",
   "rank" : "sergeant" }
+```
 
 Good encoders would agree here that finding a reliable URI for the values in gender, hometown, or rank, would be better, but there is nothing unacceptable about these strings as they are. Let's take just one of these properties and start to encode the conventions.
 
+```json
 "hometown" : {
     "@language":"en",
     "@value":"Hachita (N.M.)",
     "@id" : "http://id.loc.gov/authorities/names/no99064312" }
+```
 
 Even with only the Library of Congress link, it is clear that more information is available on this town, which could be helpful in determining if it is the one actually indicated. However, as it is, another researcher would have to reread the original transcription or view the images of the letter to know why Hachita was indicated as the hometown. Since the sergeant URI is discrete from the letter URI, there is no reason that process would be simple or natural. MADS offers a `madsrdf:Source` definition that allows for citation, so we can start there:
 
+```json
 "Source": {
     "citationSource" : "tag:ongrannystrail.com:evidence_03",
     "citationNote" : "my friend from hachita",
     "comment" : "The letter's author is from Arizona and it is very likely that the neighboring mining town of Hachita, NM is the one referred to here." }
+```
 
 This allows us to add a `Source` for the `hometown` assertion without breaking any rules of reference. If there were multiple assertions for `hometown`, the value could easily become an array. Similarly, if there are multiple `Source`s to reference, it may be a `@set` instead. The `comment` property is trouble, though, since it is semantically sensible, but a bit orphaned. The solution may be found either in the value of the `citationSource` or in the `Source` itself, just as description fields in other contexts are often very helpful to humans, but a challenge to parse.
 
 As evidence, the `citationSource` is an `oa:Annotation`, so plenty of description and attribution can be attached to it. However, the `madsrdf:Source` itself is intended as "A resource that represents the source of information about another resource," ([#](https://www.google.com/url?q=http://www.loc.gov/standards/mads/rdf/v1.html%23Source&sa=D&ust=1515534612916000&usg=AFQjCNGoypGIp6yd_6N0s18LI370Y2kSDg)) so it may be simpler to align it with typical `oa:Annotation` structures:
 
+```json
 "evidence" : {
     "@type" : [ "oa:Annotation", "madsrdf:Source ], 
     "citationSource, oa:hasTarget" : "tag:ongrannystrail.com:evidence_03",
@@ -176,6 +187,7 @@ As evidence, the `citationSource` is an `oa:Annotation`, so plenty of descriptio
     "annotatedBy" : "tag:ongrannystrail.com:user_01",
     "serializedBy" : "tag:rerum.io:annotationTool",
     "motivatedBy" : "oa:describing" }
+```
 
 Obviously, in this case, the keys are demanding simplification in a context file, but they have been expanded here to show their flexibility. In this example, the user who created the assertion that describes the value for `hometown` onto the sergeant's digital anchor is credited, as well as the software that serialized it. The `evidence_03` object is not expanded here, but can be any resource, such as a list that selects both the image segment from the `sc:Canvas` of the specific page and the text of the transcription that details it. Similarly, the `citationNote` is a short string literal, only readable by humans, but could just as well refer to some defined ontology for assertions or comparisons. The power here is that the description is now defended against weak criticism by explaining its description and intention as well as is possible.
 
