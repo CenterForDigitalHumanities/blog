@@ -22,4 +22,8 @@ We hope to have some more instructional and marketing materials out over the nex
 
 With appreciation, Patrick
 
-Patrick Cuba, Lead Developer Walter J. Ong S.J. Center for Digital Humanities Saint Louis University +1.314.977.4249
+<address>Patrick Cuba, ~~Lead Developer~~ <br />
+~~Walter J. Ong S.J. Center for Digital Humanities~~ <br />
+Saint Louis University <br />
+<a href="tel:+13149774249">+1.314.977.4249</a>
+</address>

@@ -30,9 +30,11 @@ In the human world, there is a lot of fuzziness in definition. This is fine beca
 
 ```json
 { "@id" : "1" }
+```
 
 This is much better if we upgrade the identifier to something resolvable ([or at least unique](http://www.taguri.org/)) like:
 
+```json
 { "@id" : "http://example.org/people/1" } or
 { "@id" : "tag:ongrannystrail.com:DaynaGoochJacobs" }
 ```
@@ -152,7 +154,7 @@ The simple object for the sergeant is easily constructed (with `@context` omitte
 ```json
 { "@id" : "tag:ongrannystrail.com:SergeantA314",
   "@type" : "foaf:Person",
-  "label" : "Troop A 314th Sergeant (unnamed)"  
+  "label" : "Troop A 314th Sergeant (unnamed)",  
   "gender" : "male",
   "hometown" : "Hachita",
   "rank" : "sergeant" }
