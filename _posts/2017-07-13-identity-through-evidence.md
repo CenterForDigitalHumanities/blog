@@ -7,11 +7,11 @@ categories:
 
 Let's take a real case and find out what it indicates and how it ought to be annotated. This image is the first page of a six page (3 folio) letter from Private Allen Gooch to his family, but let's not get ahead of ourselves.
 
-## ![WWI letters 7 June 1918](https://lh5.googleusercontent.com/B8Ir-0GKibjHt56I6GbVlF_LCinTxWISxGa2k8dLixLLRa_i2KL9rN_NRtdB-ZjTDhYnGJLKh5o6bP59J1LXcqsmb4iAX_yk9qjjHIT3Ee0MA1fYv2qF2hHTDJEJ9C4vYw)
+[![WWI letters 7 June 1918](https://lh5.googleusercontent.com/B8Ir-0GKibjHt56I6GbVlF_LCinTxWISxGa2k8dLixLLRa_i2KL9rN_NRtdB-ZjTDhYnGJLKh5o6bP59J1LXcqsmb4iAX_yk9qjjHIT3Ee0MA1fYv2qF2hHTDJEJ9C4vYw){: style="max-width: clamp(75px, 35vw, 350px);" .pull-right}](https://lh5.googleusercontent.com/B8Ir-0GKibjHt56I6GbVlF_LCinTxWISxGa2k8dLixLLRa_i2KL9rN_NRtdB-ZjTDhYnGJLKh5o6bP59J1LXcqsmb4iAX_yk9qjjHIT3Ee0MA1fYv2qF2hHTDJEJ9C4vYw)
 
 ### Find an artifact
 
-According to [ongrannystrail.com](https://www.google.com/url?q=https://ongrannystrail.com/2012/09/09/i-went-out-of-my-tent-and-saw-about-twenty-flying-machines/&sa=D&ust=1515534612898000&usg=AFQjCNGXXRGQEc2kzwwdax25lwhYVkZEJg){: style="max-width: clamp(75px, 35vw, 350px);" .pull-right}, Dayna Gooch Jacobs has a letter from World War I. There are already strong cataloging and metadata description schemata to make this real thing a well-described lump of matter. At this point, the way in which it is discovered is decidedly analog:
+According to [ongrannystrail.com](https://www.google.com/url?q=https://ongrannystrail.com/2012/09/09/i-went-out-of-my-tent-and-saw-about-twenty-flying-machines/&sa=D&ust=1515534612898000&usg=AFQjCNGXXRGQEc2kzwwdax25lwhYVkZEJg), Dayna Gooch Jacobs has a letter from World War I. There are already strong cataloging and metadata description schemata to make this real thing a well-described lump of matter. At this point, the way in which it is discovered is decidedly analog:
 
 > "Hello, Mrs. Jacobs? Would you mind if I stopped by to look at your WWI letter?"
 
