@@ -5,6 +5,7 @@ categories:
   - "development"
   - "transcription"
   - "rerum"
+image: "https://github.com/CenterForDigitalHumanities/blog/assets/1119165/174f0db0-a677-4fad-aa48-f3584f583f4a"
 author: "Patrick Cuba"
 ---
 
