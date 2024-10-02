@@ -39,7 +39,7 @@ constructor(canvasId, endpointUrl = 'https://tiny.rerum.io')
 ```
 
 As you can see, the change can also be made by simply using the TinyThings URL in the annotation configuration. 
-[This short code](https://github.com/ProjectMirador/mirador-annotations/blob/d6f9fca867a1e9795a6b5ffa5468e286d18ab15d/demo/src/index.js#L8-L22) block shows how to set up the Adapter with the TinyThings service:
+[This short code block](https://github.com/ProjectMirador/mirador-annotations/blob/d6f9fca867a1e9795a6b5ffa5468e286d18ab15d/demo/src/index.js#L8-L22) shows how to set up the Adapter with the TinyThings service:
 
 ```javascript
 const config = {
@@ -61,9 +61,9 @@ const config = {
 Similar to the sandbox, the TinyThings service is available without any setup or additional resources. However, 
 there are a few caveats to be aware of.
 
-> 1. TinyThings is production data and Linked Open Data. Polluting it with test data or bad data is poor web citizenship.
-> 2. The metadata for the annotations is controlled by the TinyThings service, so your project will not have any reserved control or explicit authentication.
-> 3. The result of this solution is expected to be transitional and is probably not suitable for long-term projects.
+1. TinyThings is production data and Linked Open Data. Polluting it with test data or bad data is poor web citizenship.
+2. The metadata for the annotations is controlled by the TinyThings service, so your project will not have any reserved control or explicit authentication.
+3. The result of this solution is expected to be transitional and is probably not suitable for long-term projects.
 
 ## MyThings
 
@@ -73,15 +73,15 @@ To implement your solution, simply replace the `endpointUrl` in the Adapter cons
 TinyThings example above. In fact, it is possible to spin up your own instance of the RERUM service as well and still 
 use the Adapter with the same configuration without exposing any of your data in an uncontrolled space.
 
-## Notes on the Adapter
-
-There is an [outstanding issue](https://github.com/CenterForDigitalHumanities/TinyNode/issues/90) that will add a lot of 
-flexibility to the Adapter. The Bearer token passthrough will allow for the use of the API key with TinyThings. The 
-provided Authorization header will replace the default header that identifies the TinyThings service and so connects 
-the production data to your project. This introduces a lot of concerns about security of tokens, but simplifies the 
-resources needed, if solvable.
-
-The `creator` field is added to all annotations as a common field within RERUM and other Web Annotations, but has a 
-default value set. For any of the above solutions, you can set the `creator` field to a value that identifies your 
-project or user. Because this is set on initialization, it cannot support multiple users or projects in the same 
-instance. 
+> ## Notes on the Adapter
+>
+> There is an [outstanding issue](https://github.com/CenterForDigitalHumanities/TinyNode/issues/90) that will add a lot of 
+> flexibility to the Adapter. The Bearer token passthrough will allow for the use of the API key with TinyThings. The 
+> provided Authorization header will replace the default header that identifies the TinyThings service and so connects 
+> the production data to your project. This introduces a lot of concerns about security of tokens, but simplifies the 
+> resources needed, if solvable.
+> 
+> The `creator` field is added to all annotations as a common field within RERUM and other Web Annotations, but has a 
+> default value set. For any of the above solutions, you can set the `creator` field to a value that identifies your 
+> project or user. Because this is set on initialization, it cannot support multiple users or projects in the same 
+> instance.
