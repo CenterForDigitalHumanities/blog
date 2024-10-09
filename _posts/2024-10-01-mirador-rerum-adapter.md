@@ -35,7 +35,7 @@ connects to the production server. This small change to the `endpointUrl` in the
 annotations in a more permanent location. This can be done directly in the constructor:
   
 ```javascript
-constructor(canvasId, endpointUrl = 'https://tiny.rerum.io')
+constructor(canvasId, 'https://tiny.rerum.io', 'https://store.rerum.io/v1/id/agent')
 ```
 
 As you can see, the change can also be made by simply using the TinyThings URL in the annotation configuration. 
@@ -44,7 +44,7 @@ As you can see, the change can also be made by simply using the TinyThings URL i
 ```javascript
 const config = {
   annotation: {
-    adapter: (canvasId) => new LocalStorageAdapter(canvasId,'https://tiny.rerum.io'),
+    adapter: (canvasId) => new RerumAdapter(canvasId,'https://tiny.rerum.io', 'https://store.rerum.io/v1/id/agent'),
     exportLocalStorageAnnotations: false, // display annotation JSON export button
   },
   id: 'demo',
