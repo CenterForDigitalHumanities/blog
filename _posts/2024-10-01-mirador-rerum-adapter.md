@@ -16,7 +16,7 @@ to offer a new tool for integrating the RERUM annotation service with the Mirado
 to save their annotations to the RERUM annotation service. This allows for the annotations to be shared across 
 other tools and platforms that use the RERUM service or understand standard Linked Open Data.
 
-![Looks the same to me](https://github.com/CenterForDigitalHumanities/blog/assets/mirador-annotations.png)
+![Looks the same to me]({{ site.baseurl }}/assets/images/mirador-annotations.png)
 
 The [Mirador Annotations](https://github.com/ProjectMirador/mirador-annotations) plugin allows users to create 
 and edit annotations on images and other media. The [RERUM Adapter](https://github.com/ProjectMirador/mirador-annotations/blob/master/src/RerumAdapter.js) for Mirador extends this functionality by providing a way to save these annotations to 
