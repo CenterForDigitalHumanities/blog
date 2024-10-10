@@ -6,7 +6,7 @@ categories:
   - "rerum"
 tags:
   - "mirador"
-coverImage: "https://github.com/CenterForDigitalHumanities/blog/assets/mirador-annotations.png"
+coverImage: "{{ site.baseurl }}/assets/images/mirador-annotations.png"
 author: "Patrick Cuba"
 ---
 
