@@ -9,7 +9,7 @@ tags:
   - "thinking-aloud"
   - "transcription"
 author: "Patrick Cuba"
-excerpt: "<img src='https://centerfordigitalhumanities.github.io/blog/assets/images/sppp.jpg'>"
+excerpt: "<img src='https://blog.rerum.io/assets/images/sppp.jpg'>"
 ---
 
 ## Does not compute
