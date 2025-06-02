@@ -18,7 +18,7 @@ OngCDH would not be able to operate as lean as it does without a convenient foun
 - [Rerum](http://rerum.io)
     - [Tiny Things](http://tiny.rerum.io)
     - [RERUM store](http://store.rerum.io)
-    - [RERUM API](https://centerfordigitalhumanities.github.io/rerum_server/API.html)
+    - [RERUM API](https://store.rerum.io/v1/API.html)
 - [Data Entry and Exhibition for Rerum](http://deer.rerum.io)
 - [TPEN](http://t-pen.org)
     - [Sandbox TPEN](http://t-pen.org/TPEN/transcription.html)
