@@ -8,6 +8,7 @@ tags:
   - "mirador"
 coverImage: "{{ site.baseurl }}/assets/images/mirador-annotations.png"
 author: "Patrick Cuba"
+excerpt: "A new plugin that integrates RERUM annotation service with Mirador viewer, enabling users to save and share annotations as standard Linked Open Data across multiple platforms."
 ---
 
 The Digital Scholarship development team for the Research Computing Group at Saint Louis University is pleased 
