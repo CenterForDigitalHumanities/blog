@@ -10,6 +10,7 @@ tags:
   - "geojson-ld"
   - "geolocation"
 author: "Bryan Haberberger"
+excerpt: "Using IIIF Presentation API 2.1 services to attach GeoJSON-LD objects to Manifests for geographic functionality when Annotation syntax falls short."
 ---
 
 The shortcomings of the Annotation syntax meant looking for another option. The other option of intertwining syntax is [IIIF Presentation API 2.1 services](https://iiif.io/api/annex/services/). Initial investigation led to a supported [GeoJSON extension](https://iiif.io/api/annex/services/#geojson), which meant there was already a foundation set for working with GeoJSON under the scope of the API.

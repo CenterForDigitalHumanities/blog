@@ -9,6 +9,7 @@ tags:
   - "ux"
 coverImage: "tpen28.jpg"
 author: "Donal Hegarty"
+excerpt: "How T-PEN's page tools use CSS3 image manipulation (invert, grayscale, brightness, contrast) to improve readability of poor-quality manuscript scans and photos."
 ---
 
 **Page tools - CSS3 to the rescue** The page tools split screen was developed to take advantage of CSS3 image manipulation tools. The reason was that while we allow access to 4000+ manuscripts the vast majority of our traffic is private uploads. And those uploads are invariably the poor quality of microfilm scans or photocopies of such scans or even photos taking in poor lighting with handheld cameras and phones. While is wonderful to be able to use the high quality images of  repository we all know that such images are not an option because of availability cost or the resources of the intuition.

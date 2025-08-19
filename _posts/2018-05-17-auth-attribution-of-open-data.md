@@ -10,6 +10,7 @@ tags:
   - "rerum"
 coverImage: "logo.png"
 author: "Bryan Haberberger"
+excerpt: "Balancing open data accessibility with attribution and ownership rights through versioning trees and metadata to preserve creator credit while enabling public reuse."
 ---
 
 Open Data is supposed to be accessible without any constraints to availability.   The idea of authentication around Open Data is an oxymoron, but in practice we have found great benefit for keeping track of who can claim ownership to an object and how we can use ownership to put natural restrictions on the openness of data to make it a more comfortable realm for people.

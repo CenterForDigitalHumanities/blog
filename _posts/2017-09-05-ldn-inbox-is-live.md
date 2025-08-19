@@ -8,6 +8,7 @@ tags:
   - "ldn"
   - "open"
 author: "Patrick Cuba"
+excerpt: "Announcing a new LDN Inbox for the IIIF community, providing free public notification services for scholarly resources and enabling better discovery and feedback."
 ---
 
 With thanks for the demonstrations and work done by [Jeffrey Witt](http://jeffreycwitt.com) (Loyola University Maryland), [Rafael Schwemmer](https://github.com/schwemmer) ([text & bytes](https://www.textandbytes.com)), [Régis Robineau](https://github.com/regisrob) ([Biblissima](http://www.biblissima-condorcet.fr)), and Chip Goines (Harvard University), the [Walter J. Ong, S.J. Center for Digital Humanities](https://github.com/CenterForDigitalHumanities) would like to announce an exciting new LDN Inbox.

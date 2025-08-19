@@ -11,6 +11,7 @@ tags:
   - "ux"
 coverImage: "tpen28.jpg"
 author: "Donal Hegarty"
+excerpt: "Organizing T-PEN's interface hierarchy using layered focus levels - from transcription core to keyboard shortcuts, split screens, and distant options tabs."
 ---
 
 The last blog covered a little bit about what challenge we laid out for ourselves in reworking the T-PEN Transcription interface. We set out to see if we could arrange and reorder the interface to be cleaner, easier to use, improve the access to the hidden tools, privilege the most used tools be more consistent in the tool functioning but not abandon any tool. In the last blog we talked about what we did to support transcription directly. In this blog we will talk a little about how we arranged our tools around transcription and we set the various tools at different distances from the transcription fiction but as a matter of physical layout and through different modes of interaction.
