@@ -9,6 +9,7 @@ tags:
   - "web-annotation"
 coverImage: "Western_front._Shipping_art_objects_from_the_imperiled_museum_at_Valenciennes_to_safer_storage._July_1917_-_NARA_-_173909521.jpg"
 author: "Patrick Cuba"
+excerpt: "How RERUM handles updates to remote objects like Wellcome Library annotations, maintaining trust and authentication through versioning and provenance tracking."
 ---
 
 [![]({{ site.baseurl }}/assets/images/default.jpg "https://wellcomelibrary.org/iiif/b22282804/annos/contentAsText/a18t0")](https://dlcs.io/iiif-img/wellcome/1/9089aa93-610c-436e-8e5d-36aedfd041f0/73,254,1443,64/!1024,1024/0/default.jpg)

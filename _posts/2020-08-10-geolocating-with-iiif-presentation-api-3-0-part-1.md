@@ -8,6 +8,7 @@ categories:
 tags: 
   - "geojson"
 author: "Bryan Haberberger"
+excerpt: "Explore how to implement geographic annotations in IIIF Presentation API 3.0 using GeoJSON-LD to geolocate Manifests with coordinate data and geographic polygons."
 ---
 
 The experience with Annotation during the initial phases of implementing this syntax was positive. We found it prudent to investigate Annotation again using [IIIF Presentation API 3.0](https://iiif.io/api/presentation/3.0/).

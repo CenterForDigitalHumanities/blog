@@ -12,6 +12,7 @@ tags:
   - "transcription"
 coverImage: "tpen28.jpg"
 author: "Patrick Cuba"
+excerpt: "Announcing resumed T-PEN development with funding from SLU Libraries, featuring RERUM integration and seeking community input on priorities for version 2.8 and 3.0."
 ---
 
 ## ![logo]({{ site.baseurl }}/assets/images/Screen-Shot-2015-11-10-at-11.20.06-AM-1024x398.png)

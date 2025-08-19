@@ -12,6 +12,7 @@ tags:
   - "web-annotation"
 coverImage: "bloc2.png"
 author: "Patrick Cuba"
+excerpt: "Understanding how RERUM implements versioning for digital objects to ensure permanent references while allowing for updates and changes in Linked Open Data ecosystems."
 ---
 
 Versioning as it is known in software is simply the process of preserving previous iterations of a document when changes are made. There are many systems available to the developer which differ in centralization, cloning behaviors, delta encoding, etc., but for our purposes, the philosophy and utility should suffice.

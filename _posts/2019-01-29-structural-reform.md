@@ -7,6 +7,7 @@ categories:
   - "rerum"
 coverImage: "rerum.jpg"
 author: "Patrick Cuba"
+excerpt: "Introducing REform, a user-friendly application for creating and managing organizational structures in IIIF Manifests using Canvas and Range elements with standards-based encoding."
 ---
 
 The world of annotations is one of unstructured targeting.  There is an existing piece of data somewhere in the world and an annotation targets it.  At a higher level we work with data objects called Manifest.  The manifests we work with follow the construct created by the IIIF frame work ([https://iiif.io/api/presentation/2.1/#manifest](https://iiif.io/api/presentation/2.1/#manifest)).  An important attribute of a Manifest is the ability to organize a structure around data in scope of the Manifest ([https://iiif.io/api/presentation/2.1/#range](https://iiif.io/api/presentation/2.1/#range)) using the “structures” property.  In this way, multiple structures can be built to offer different representational hierarchies of the data in scope.

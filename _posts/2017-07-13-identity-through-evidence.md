@@ -4,6 +4,7 @@ date: "2017-07-13"
 categories: 
   - "eventities"
 author: "Patrick Cuba"
+excerpt: "Exploring how to establish digital identity and uniqueness for historical artifacts like WWI letters through URIs, annotations, and linked data principles."
 ---
 
 Let's take a real case and find out what it indicates and how it ought to be annotated. This image is the first page of a six page (3 folio) letter from Private Allen Gooch to his family, but let's not get ahead of ourselves.

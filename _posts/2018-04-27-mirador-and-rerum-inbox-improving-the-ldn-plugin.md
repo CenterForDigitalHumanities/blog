@@ -16,6 +16,7 @@ tags:
   - "web-annotation"
 coverImage: "logo3.png"
 author: "Patrick Cuba"
+excerpt: "Updates to the Mirador LDN Plugin extend functionality for more object types, plus a new Rerum Inbox interface for posting supplemental IIIF Manifest content."
 ---
 
 Two complementary updates have popped up from OngCDH and our friends. The first extends the functionality of the The Mirador LDN Plugin to include more object types and the second is a new interface on the [Rerum Inbox website](http://inbox-docs.rerum.io) which makes it easier for anyone to post supplemental content for public IIIF Manifests.

@@ -8,6 +8,7 @@ categories:
 tags: 
   - "geojson"
 author: "Bryan Haberberger"
+excerpt: "Testing IIIF Presentation API 3.0 services for GeoJSON-LD support, implementing geographic data through service objects attached to Manifests."
 ---
 
 Having found success with [IIIF Presentation API 3](https://iiif.io/api/presentation/3.0/) Annotation, we look to see if services can support [GeoJSON-LD](https://geojson.org/geojson-ld/).

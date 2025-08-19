@@ -6,6 +6,7 @@ categories:
   - "iiif"
   - "instructional"
 author: "Bryan Haberberger"
+excerpt: "Contributing to the IIIF Cookbook with GeoJSON recipes for geographic annotations, demonstrating how standards committees create practical examples for implementers."
 ---
 
 As with any standards committee or best practices group, there is a subgroup tasked with providing examples for the internal community as well as external implementers.  For IIIF, this group is the [Cookbook](https://iiif.io/api/cookbook/) group.  Examples exist in [the public Cookbook](https://iiif.io/api/cookbook/) that properly format data assertions and combine them with resources in order to enhance those resources.  The group is governed by careful guidance for, and strict adherence to, the best practices and standards promoted within.  This is the most helpful and appropriate place to incubate technical application of the standards in the framework.

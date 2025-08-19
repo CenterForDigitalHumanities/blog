@@ -6,6 +6,7 @@ categories:
   - "rerum"
 coverImage: "rerum.jpg"
 author: "Patrick Cuba"
+excerpt: "How RERUM handles object deletion by healing version history trees while maintaining open access principles and proper attribution for deleted content."
 ---
 
 At the Walter J. Ong, S.J. Center for Digital Humanities, we have been working hard on [RERUM](http://rerum.io), the public object repository for IIIF, Web Annotation, and other JSON documents. The latest feature we've been diving into for the 1.0 release is **DELETE**. As is covered in the [documentation on Github](https://github.com/CenterForDigitalHumanities/rerum_server), there are a few guiding principles that are relevant here:

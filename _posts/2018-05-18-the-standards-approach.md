@@ -7,6 +7,7 @@ categories:
   - "rerum"
 coverImage: "logo.png"
 author: "Bryan Haberberger"
+excerpt: "Exploring how to effectively combine web standards like RESTful APIs, CORS, Web Annotation, and IIIF when building digital humanities applications and APIs."
 ---
 
 As developers in the field we want to follow the standards emerging for the web and for data. For the challenges our field faces, we often combine RESTful API practices, CORS, Web Annotation, Web Components, IIIF, JSON, JSON-LD, and Linked Open Data standards together so that APIs and applications we create are automatically applicable to other APIs and applications built under the same guidelines.  The Walter J. Ong, S.J. Center for Digital Humanities at Saint Louis University are facing these challenges in particular as we develop [RERUM](http://rerum.io).
