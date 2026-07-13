@@ -5,6 +5,10 @@ categories:
   - "development"
   - "iiif"
   - "instructional"
+tags:
+  - "iiif"
+  - "services"
+  - "instructional"
 author: "Bryan Haberberger"
 excerpt: "Contributing to the IIIF Cookbook with GeoJSON recipes for geographic annotations, demonstrating how standards committees create practical examples for implementers."
 ---

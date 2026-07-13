@@ -3,6 +3,10 @@ title: "Identity through Evidence"
 date: "2017-07-13"
 categories: 
   - "eventities"
+tags:
+    - "eventities"
+    - "activity-streams"
+    - "web-annotation"
 author: "Patrick Cuba"
 excerpt: "Exploring how to establish digital identity and uniqueness for historical artifacts like WWI letters through URIs, annotations, and linked data principles."
 ---

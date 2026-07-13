@@ -4,6 +4,10 @@ date: "2018-05-08"
 categories: 
   - "development"
   - "rerum"
+tags:
+  - "rerum"
+  - "versioning"
+  - "web-annotation"
 coverImage: "rerum.jpg"
 author: "Patrick Cuba"
 excerpt: "How RERUM transforms deleted objects to break unaware interfaces while preserving data access for developers through the __deleted property structure."

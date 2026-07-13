@@ -1,0 +1,52 @@
+<!-- _includes/header.html -->
+<header class="site-header">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}" class="site-avatar">
+      <img src="{{ '/assets/images/rcg.png' | relative_url }}" alt="{{ site.name }}" />
+    </a>
+    <div class="site-info">
+      <h1 class="site-name"><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
+      <p class="site-description">{{ site.description }}</p>
+    </div>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <!-- Topics dropdown -->
+      <div class="dropdown">
+        <button class="dropbtn">Topics</button>
+        <div class="dropdown-content">
+          {% assign topics_csv = '' %}
+          {% for post in site.posts %}
+            {% for category in post.categories %}
+              {% assign topic_token = '|' | append: category | append: '|' %}
+              {% unless topics_csv contains topic_token %}
+                {% assign topics_csv = topics_csv | append: topic_token %}
+              {% endunless %}
+            {% endfor %}
+          {% endfor %}
+          {% assign topic_names = topics_csv | split: '|' | sort %}
+          {% assign has_topics = false %}
+          {% for topic in topic_names %}
+            {% unless topic == '' %}
+              {% assign has_topics = true %}
+              <a href="{{ '/topics/' | relative_url }}#{{ topic | slugify }}">{{ topic }}</a>
+            {% endunless %}
+          {% endfor %}
+          {% unless has_topics %}
+            <span class="dropdown-empty">No topics yet</span>
+          {% endunless %}
+        </div>
+      </div>
+      <!-- Date archive dropdown -->
+      <div class="dropdown">
+        <button class="dropbtn">Archives</button>
+        <div class="dropdown-content">
+          {% assign years = site.posts | group_by_exp: 'post', "post.date | date: '%Y'" %}
+          {% for year in years %}
+            <a href="{{ '/archives/' | relative_url }}#y{{ year.name }}">{{ year.name }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

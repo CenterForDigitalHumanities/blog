@@ -4,6 +4,10 @@ date: "2018-05-08"
 categories: 
   - "development"
   - "rerum"
+tags:
+  - "rerum"
+  - "versioning"
+  - "web-annotation"
 coverImage: "rerum.jpg"
 author: "Patrick Cuba"
 excerpt: "How RERUM handles object deletion by healing version history trees while maintaining open access principles and proper attribution for deleted content."

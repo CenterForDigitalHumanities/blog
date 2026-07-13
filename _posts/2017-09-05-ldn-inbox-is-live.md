@@ -5,8 +5,8 @@ categories:
   - "iiif"
 tags: 
   - "inbox"
-  - "ldn"
-  - "open"
+  - "linked-data-notification"
+  - "open-data"
 author: "Patrick Cuba"
 excerpt: "Announcing a new LDN Inbox for the IIIF community, providing free public notification services for scholarly resources and enabling better discovery and feedback."
 ---

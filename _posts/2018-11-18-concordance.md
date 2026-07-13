@@ -6,7 +6,7 @@ categories:
   - "iiif"
 tags: 
   - "manuscripts"
-  - "text"
+  - "text-analysis"
   - "word-list"
 coverImage: "image-2-e1540479483681.png"
 author: "Patrick Cuba"

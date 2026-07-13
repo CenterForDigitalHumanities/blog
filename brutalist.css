@@ -1,0 +1,278 @@
+/* Brutalist theme: hard edges, high contrast, no gradients, no soft shadows */
+
+:root {
+  --bg: #f2f2f2;
+  --paper: #ffffff;
+  --ink: #111111;
+  --line: #111111;
+  --accent: #d20f00;
+  --muted: #4b4b4b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Space Grotesk", "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.container {
+  width: min(1040px, 96vw);
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--paper);
+  background: var(--accent);
+  outline: none;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--paper);
+  border-bottom: 3px solid var(--line);
+}
+
+.site-header .container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.site-avatar,
+.site-avatar img {
+  width: 72px;
+  height: 72px;
+  display: block;
+}
+
+.site-avatar img {
+  object-fit: contain;
+  border: 2px solid var(--line);
+}
+
+.site-info {
+  min-width: 0;
+}
+
+.site-name {
+  margin: 0;
+  font-size: clamp(1.6rem, 2.8vw, 2.35rem);
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+.site-name a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-description {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.9rem;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.site-nav > a,
+.dropbtn {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 2px solid var(--line);
+  border-radius: 0;
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.site-nav > a:hover,
+.dropbtn:hover,
+.site-nav > a:focus-visible,
+.dropbtn:focus-visible {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 220px;
+  max-height: 50vh;
+  overflow-y: auto;
+  border: 2px solid var(--line);
+  background: var(--paper);
+  padding: 4px;
+  z-index: 120;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a,
+.dropdown-empty {
+  display: block;
+  padding: 8px 10px;
+  margin: 0;
+  border-bottom: 1px solid #c6c6c6;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.dropdown-content a:last-child {
+  border-bottom: 0;
+}
+
+.dropdown-content a:hover,
+.dropdown-content a:focus-visible {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+#main {
+  margin: 20px auto;
+  background: var(--paper);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  padding: 22px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 1.2rem 0 0.6rem;
+  line-height: 1.15;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+}
+
+.post,
+.page,
+.posts > .post {
+  border: 2px solid var(--line);
+  border-radius: 0;
+  padding: 14px;
+  margin: 0 0 14px;
+  background: var(--paper);
+}
+
+.posts > .post:last-child {
+  margin-bottom: 0;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 6px;
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border: 2px solid var(--line);
+  padding: 5px 9px;
+  text-decoration: none;
+}
+
+.date {
+  font-family: "IBM Plex Mono", monospace;
+  color: var(--muted);
+}
+
+.wrapper-footer {
+  border-top: 3px solid var(--line);
+  border-bottom: 3px solid var(--line);
+  background: var(--paper);
+}
+
+.footer,
+.site-footer {
+  text-align: left;
+  padding: 12px 0;
+}
+
+.site-footer {
+  border-top: 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.9rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 0;
+}
+
+.PageNavigation {
+  margin-top: 12px;
+  border-top: 2px solid var(--line);
+  padding-top: 12px;
+}
+
+.PageNavigation a {
+  text-decoration: none;
+  border: 2px solid var(--line);
+  padding: 6px 10px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+  .site-header .container {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .site-nav {
+    gap: 6px;
+  }
+
+  #main {
+    padding: 14px;
+  }
+}

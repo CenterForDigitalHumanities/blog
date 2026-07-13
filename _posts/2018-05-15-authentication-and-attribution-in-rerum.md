@@ -4,6 +4,10 @@ date: "2018-05-15"
 categories: 
   - "development"
   - "rerum"
+tags:
+    - "authentication"
+    - "authorization"
+    - "rerum"
 coverImage: "rerum.jpg"
 author: "Patrick Cuba"
 excerpt: "How RERUM approaches authentication and attribution by having applications authenticate themselves rather than individual users, creating more durable scholarly attributions."

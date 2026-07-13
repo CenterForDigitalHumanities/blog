@@ -5,6 +5,10 @@ categories:
   - "experiments"
   - "iiif"
   - "technology"
+tags:
+  - "iiif"
+  - "geojson"
+  - "geolocation"
 author: "Bryan Haberberger"
 excerpt: "Exploring how to create standardized geospatial annotations for IIIF resources using GeoJSON and Web Annotation standards for interoperable linked open data."
 ---

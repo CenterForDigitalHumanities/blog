@@ -5,6 +5,10 @@ categories:
   - "development"
   - "iiif"
   - "rerum"
+tags:
+  - "iiif"
+  - "web-annotation"
+  - "services"
 coverImage: "logo.png"
 author: "Bryan Haberberger"
 excerpt: "Exploring how to effectively combine web standards like RESTful APIs, CORS, Web Annotation, and IIIF when building digital humanities applications and APIs."

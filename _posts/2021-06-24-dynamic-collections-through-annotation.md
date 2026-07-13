@@ -3,6 +3,10 @@ title: "Dynamic Collections Through Annotation"
 date: "2021-06-24"
 categories: 
   - "posts"
+tags:
+  - "iiif"
+  - "web-annotation"
+  - "rerum"
 author: "Patrick Cuba"
 excerpt: "Learn how to create changeable IIIF collections that combine remote resources using annotation-based methods, with demonstrations of real public services for researchers and developers."
 ---

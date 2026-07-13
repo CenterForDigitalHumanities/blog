@@ -5,6 +5,10 @@ categories:
   - "development"
   - "experiments"
   - "technology"
+tags:
+  - "geolocation"
+  - "geojson"
+  - "thinking-aloud"
 author: "Bryan Haberberger"
 excerpt: "How spatiotemporal data shapes digital humanities research, from Lived Religion projects to standardized geospatial assertions connecting humans, time, and space."
 ---

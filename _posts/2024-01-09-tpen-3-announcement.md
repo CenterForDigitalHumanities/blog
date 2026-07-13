@@ -5,6 +5,10 @@ categories:
   - "development"
   - "transcription"
   - "rerum"
+tags:
+  - "tpen-3-0"
+  - "transcription"
+  - "rerum"
 coverImage: "https://github.com/CenterForDigitalHumanities/blog/assets/1119165/174f0db0-a677-4fad-aa48-f3584f583f4a"
 author: "Patrick Cuba"
 excerpt: "TPEN receives NEH Digital Humanities Advancement Grant for major platform upgrade, moving to RERUM-powered infrastructure while preserving thousands of existing transcription projects."

@@ -3,6 +3,10 @@ title: "Building a IIIF-Aware Ecosystem"
 date: "2021-06-23"
 categories: 
   - "posts"
+tags:
+    - "iiif"
+    - "services"
+    - "rerum"
 author: "Patrick Cuba"
 excerpt: "Tour the principles and components of OngCDH's IIIF-aware ecosystem, showcasing tools, APIs, and web components that accelerate digital humanities application development."
 ---

@@ -5,6 +5,10 @@ categories:
   - "development"
   - "iiif"
   - "rerum"
+tags:
+  - "iiif"
+  - "rerum"
+  - "ux"
 coverImage: "rerum.jpg"
 author: "Patrick Cuba"
 excerpt: "Introducing REform, a user-friendly application for creating and managing organizational structures in IIIF Manifests using Canvas and Range elements with standards-based encoding."

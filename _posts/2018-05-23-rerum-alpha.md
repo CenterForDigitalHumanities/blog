@@ -5,6 +5,10 @@ categories:
   - "iiif"
   - "news"
   - "rerum"
+tags:
+  - "rerum"
+  - "services"
+  - "open-data"
 coverImage: "rerum.jpg"
 author: "Patrick Cuba"
 excerpt: "Announcing Rerum's public alpha release: an open, free repository for digital objects and annotations, built on web standards to accelerate Humanities application development."
